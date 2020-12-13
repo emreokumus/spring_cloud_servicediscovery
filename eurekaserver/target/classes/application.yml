@@ -1,0 +1,5 @@
+#Bu iki satırı bu uygulama Eureka Server bu yüzden Eureka Client gibi register olacak bir Eureka Server aramasını önlemek için tanımladım.
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false

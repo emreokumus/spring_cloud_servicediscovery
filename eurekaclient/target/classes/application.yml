@@ -1,0 +1,7 @@
+#Eureka Client'in kayıt olacağı Eureka Server’ ın adresidir.
+#Tanımlamada, uygulama çalıştırılırken EUREKA_URI parametresi geçilirse bu bilgiyi kullanmasını
+#Aksi takdirde, varsayılan olarak http://localhost:8081/eureka adresini kullanmasını uygulamamıza söylemiş oluruz.
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8081/eureka}
