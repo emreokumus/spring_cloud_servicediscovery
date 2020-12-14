@@ -11,5 +11,7 @@
     <modules>
         <module>eurekaserver</module>
         <module>eurekaclient</module>
+        <module>movie_server</module>
+        <module>movie_client</module>
     </modules>
 </project>

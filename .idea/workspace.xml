@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="830ae554-70e8-4e61-93c8-805aa6fc76e7" name="Default Changelist" comment="" />
+    <list default="true" id="830ae554-70e8-4e61-93c8-805aa6fc76e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie_client/movie_client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie_client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie_server/movie_server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/src/main/java/com/emreokumus/eurekaclient/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/emreokumus/eurekaclient/EurekaClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/java/om/emreokumus/servicediscovery/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/om/emreokumus/servicediscovery/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/target/classes/om/emreokumus/servicediscovery/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/target/classes/om/emreokumus/servicediscovery/EurekaServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,21 +24,40 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lbZpf6gbJMS5SwaZewCat2IUdN" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie_server/src/main/resources" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movie_client/src/main/resources" />
+      <recent name="$PROJECT_DIR$/movie_client/src/main/resources/static/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movie_server/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+  <component name="RunManager" selected="Spring Boot.MovieClientApplication">
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eurekaclient" />
       <extension name="coverage">
@@ -66,10 +98,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie_client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emreokumus.servicediscovery.MovieClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emreokumus.servicediscovery.MovieServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaClientApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.EurekaClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -84,11 +130,23 @@
       <option name="presentableId" value="Default" />
       <updated>1607867935189</updated>
       <workItem from="1607867939414" duration="6951000" />
+      <workItem from="1607928934042" duration="7025000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

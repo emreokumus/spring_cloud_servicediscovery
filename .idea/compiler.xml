@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
         <module name="eurekaclient" />
+        <module name="movie_client" />
+        <module name="movie_server" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +17,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="movie_client" options="-parameters" />
+      <module name="movie_server" options="-parameters" />
     </option>
   </component>
 </project>

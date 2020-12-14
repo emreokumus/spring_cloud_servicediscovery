@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    <title>Welcome to Movie Review System</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="/">Movies Review System by Emre Okumus</a>
+</nav>
+<div style="text-align:center">
+    <h1>Movie List</h1>
+    <br>
+    <table class="center">
+        <thead>
+        <tr style="font-weight:bold" bgcolor="#696969">
+            <th> ID</th>
+            <th> Movie Name</th>
+            <th> Movie Date</th>
+            <th> Movie IMDB Point</th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="movie ,iterStat: ${result}">
+            <tr th:bgcolor="${iterStat.odd}?white:lightgray">
+                <td th:text="${movie.id}"></td>
+                <td th:text="${movie.name}"></td>
+                <td th:text="${movie.date}"></td>
+                <td th:text="${movie.imdbPoint}"></td>
+            </tr>
+        </th:block>
+        </tbody>
+    </table>
+</div>
+</body>
+
+</html>
